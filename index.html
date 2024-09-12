@@ -25,6 +25,21 @@
             border: none;
             border-top: 2px solid #00008B;
             margin: 20px 0;
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }       
         }
     </style>
 </head>
@@ -47,37 +62,151 @@
    <button id="aboutAutho">Strona redakcyjna</button>
         <div id="aboutAuth" style="display: none;">
         <p> 
-    <h1>Kierownik projektu, redaktor naukowy serwisu:</h1>
+   <h1>Kierownik projektu, redaktor naukowy serwisu:</h1>
     <p><strong>Prof. dr hab. Radosław Grabowski</strong></p>
+
     <h2>Autorzy:</h2>
-    <ul>
-        <li>ABK dr hab. Agnieszka Bień-Kacała, Uniwersytet Szczeciński</li>
-        <li>AFB dr hab. Anna Frankiewicz-Bodynek, Uniwersytet Opolski</li>
-        <li>AH dr Anna Hadała, Uniwersytet Rzeszowski</li>
-        <li>AMS Prof. dr hab. Anna Młynarska-Sobaczewska, Polska Akademia Nauk</li>
-        <li>KB/AO dr Kamila Bezubik, Uniwersytet w Białymstoku, dr hab. Artur Olechno, Uniwersytet w Białymstoku</li>
-        <li>AT dr Artur Trubalski, Uniwersytet Rzeszowski</li>
-        <li>DW dr Damian Wicherek, Uniwersytet Rzeszowski</li>
-        <li>GM dr hab. Grzegorz Maroń, Uniwersytet Rzeszowski</li>
-        <li>GP dr hab. Grzegorz Pastuszko, Uniwersytet Rzeszowski</li>
-        <li>HK dr Hubert Kotarski, Uniwersytet Rzeszowski</li>
-        <li>JC dr Justyna Ciechanowska, Uniwersytet Rzeszowski</li>
-        <li>JJ dr hab. Joanna Juchniewicz, Uniwersytet Warmińsko-Mazurski</li>
-        <li>KP dr Karol Piękoś, Uniwersytet Rzeszowski</li>
-        <li>KSz dr Katarzyna Szwed, Uniwersytet Rzeszowski</li>
-        <li>MD dr hab. Marcin Dąbrowski, Uniwersytet Warmińsko-Mazurski</li>
-        <li>MN dr Marcin Niemczyk, Uniwersytet Rzeszowski</li>
-        <li>MGK dr Małgorzata Grzesik-Kulesza, Państwowa Akademia Nauk Stosowanych w Jarosławiu</li>
-        <li>MM dr Michał Mistygacz, Uniwersytet Warszawski</li>
-        <li>PM dr Przemysław Mijal, Uniwersytet Szczeciński</li>
-        <li>RG Prof. dr hab. Radosław Grabowski, Uniwersytet Rzeszowski</li>
-        <li>SG Prof. dr hab. Sabina Grabowska, Uniwersytet Rzeszowski</li>
-        <li>TC mgr Tomasz Ciechanowski, Uniwersytet Rzeszowski</li>
-        <li>TT mgr Tomasz Tłuczek, doktorant Uniwersytet Rzeszowski</li>
-        <li>WM dr Wojciech Mojski, Uniwersytet Marii Curie-Skłodowskiej w Lublinie</li>
-        <li>KS dr hab. Konrad Składowski, Uniwersytet Łódzki</li>
-        <li>RB dr hab. Ryszard Balicki, Uniwersytet Wrocławski</li>
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Skrót</th>
+                <th>Autor</th>
+                <th>Afiliacja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ABK</td>
+                <td>dr hab. Agnieszka Bień-Kacała</td>
+                <td>Uniwersytet Szczeciński</td>
+            </tr>
+            <tr>
+                <td>AFB</td>
+                <td>dr hab. Anna Frankiewicz-Bodynek</td>
+                <td>Uniwersytet Opolski</td>
+            </tr>
+            <tr>
+                <td>AH</td>
+                <td>dr Anna Hadała</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>AMS</td>
+                <td>Prof. dr hab. Anna Młynarska-Sobaczewska</td>
+                <td>Polska Akademia Nauk</td>
+            </tr>
+            <tr>
+                <td>KB/AO</td>
+                <td>dr Kamila Bezubik, dr hab. Artur Olechno</td>
+                <td>Uniwersytet w Białymstoku</td>
+            </tr>
+            <tr>
+                <td>AT</td>
+                <td>dr Artur Trubalski</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>DW</td>
+                <td>dr Damian Wicherek</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>GM</td>
+                <td>dr hab. Grzegorz Maroń</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>GP</td>
+                <td>dr hab. Grzegorz Pastuszko</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>HK</td>
+                <td>dr Hubert Kotarski</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>JC</td>
+                <td>dr Justyna Ciechanowska</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>JJ</td>
+                <td>dr hab. Joanna Juchniewicz</td>
+                <td>Uniwersytet Warmińsko-Mazurski</td>
+            </tr>
+            <tr>
+                <td>KP</td>
+                <td>dr Karol Piękoś</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>KSz</td>
+                <td>dr Katarzyna Szwed</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>MD</td>
+                <td>dr hab. Marcin Dąbrowski</td>
+                <td>Uniwersytet Warmińsko-Mazurski</td>
+            </tr>
+            <tr>
+                <td>MN</td>
+                <td>dr Marcin Niemczyk</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>MGK</td>
+                <td>dr Małgorzata Grzesik-Kulesza</td>
+                <td>Państwowa Akademia Nauk Stosowanych w Jarosławiu</td>
+            </tr>
+            <tr>
+                <td>MM</td>
+                <td>dr Michał Mistygacz</td>
+                <td>Uniwersytet Warszawski</td>
+            </tr>
+            <tr>
+                <td>PM</td>
+                <td>dr Przemysław Mijal</td>
+                <td>Uniwersytet Szczeciński</td>
+            </tr>
+            <tr>
+                <td>RG</td>
+                <td>Prof. dr hab. Radosław Grabowski</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>SG</td>
+                <td>Prof. dr hab. Sabina Grabowska</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>TC</td>
+                <td>mgr Tomasz Ciechanowski</td>
+                <td>Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>TT</td>
+                <td>mgr Tomasz Tłuczek</td>
+                <td>Doktorant, Uniwersytet Rzeszowski</td>
+            </tr>
+            <tr>
+                <td>WM</td>
+                <td>dr Wojciech Mojski</td>
+                <td>Uniwersytet Marii Curie-Skłodowskiej w Lublinie</td>
+            </tr>
+            <tr>
+                <td>KS</td>
+                <td>dr hab. Konrad Składowski</td>
+                <td>Uniwersytet Łódzki</td>
+            </tr>
+            <tr>
+                <td>RB</td>
+                <td>dr hab. Ryszard Balicki</td>
+                <td>Uniwersytet Wrocławski</td>
+            </tr>
+        </tbody>
+    </table>       
 </p>
         </div>
 
