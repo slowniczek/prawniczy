@@ -85,7 +85,7 @@ button:hover {
     hyphens: auto; /* Dodaje dzielenie wyrazów, jeśli to możliwe */
     line-height: 1.6em;
     text-align: justify;
-
+}
     #aboutInfo {
     margin-top: 20px;
     padding: 20px;
