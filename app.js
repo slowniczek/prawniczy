@@ -592,7 +592,7 @@ document.addEventListener('DOMContentLoaded', function() {
     consultButton.addEventListener('click', function() {
         if (consultInfo.style.display === 'none' || consultInfo.style.display === '') {
             consultInfo.style.display = 'block';
-            consultInfo.innerHTML = 'W przypadku problemów z działaniem aplikacji proszę kierować pytania na adres mailowy <a href="mailto:krystian.tuczynski@gmail.com">krystian.tuczynski@gmail.com</a>;
+            consultInfo.innerHTML = 'W przypadku problemów z działaniem aplikacji proszę kierować pytania na adres mailowy <a href="mailto:krystian.tuczynski@gmail.com">krystian.tuczynski@gmail.com</a>';
         } else {
             consultInfo.style.display = 'none';
         }
