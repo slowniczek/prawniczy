@@ -81,7 +81,10 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
     line-height: 1.6em;
-
+    word-wrap: break-word; /* Łamie długie słowa */
+    hyphens: auto; /* Dodaje dzielenie wyrazów, jeśli to możliwe */
+    line-height: 1.6em;
+    text-align: justify;
 
     #aboutInfo {
     margin-top: 20px;
