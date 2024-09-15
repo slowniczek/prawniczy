@@ -583,6 +583,25 @@ aboutAutho.addEventListener('click', function() {
     });
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const consultButton = document.getElementById('consultButton');
+    const consultInfo = document.getElementById('consultInfo');
+
+    // Funkcja obsługująca przycisk "Konsultacje IT"
+    consultButton.addEventListener('click', function() {
+        if (consultInfo.style.display === 'none' || consultInfo.style.display === '') {
+            consultInfo.style.display = 'block';
+            consultInfo.innerHTML = 'W przypadku problemów z działaniem aplikacji proszę kierować pytania na krystian.tuczynski@gmail.com';
+        } else {
+            consultInfo.style.display = 'none';
+        }
+    });
+});
+
+
+
+
 // Dodanie obsługi instalacji PWA
 window.addEventListener('load', () => {
     let deferredPrompt;
