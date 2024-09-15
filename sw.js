@@ -3,12 +3,12 @@ self.addEventListener('install', function(event) {
         caches.open('dictionary-v2').then(function(cache) {
             return cache.addAll([
                 '/',
-                '/prawniczy/index.html',
-                '/prawniczy/styles.css',
-                '/prawniczy/app.js',
-                '/prawniczy/manifest.json',
-                '/prawniczy/icons/ikonka.png',
-                '/prawniczy/icons/ikonka2.png'
+                '/index.html', // Zaktualizowano ścieżki
+                '/styles.css',
+                '/app.js',
+                '/manifest.json',
+                '/icons/ikonka.png',
+                '/icons/ikonka2.png'
             ]);
         })
     );
