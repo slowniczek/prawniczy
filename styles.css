@@ -26,7 +26,7 @@ body {
 .serwis-title {
     color: white; /* Biały kolor tekstu */
     background-color: #00008B; /* Ciemnoniebieskie tło */
-    padding: 20px; /* Większy wewnętrzny odstęp dla efektu prostokąta */
+    padding: 5px; /* Większy wewnętrzny odstęp dla efektu prostokąta */
     border-radius: 10px; /* Zaokrąglone rogi */
     text-align: center; /* Wyśrodkowanie tekstu */
     display: inline-block; /* Pozwala na łatwe ustawienie szerokości */
