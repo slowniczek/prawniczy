@@ -25,7 +25,7 @@ body {
 
 .serwis-title {
     color: white; /* Biały kolor tekstu */
-    background-color: #00008B; /* Ciemnoniebieskie tło */
+    background-color: #0055A8; /* Ciemnoniebieskie tło */
     padding: 5px; /* Większy wewnętrzny odstęp dla efektu prostokąta */
     border-radius: 10px; /* Zaokrąglone rogi */
     text-align: center; /* Wyśrodkowanie tekstu */
@@ -70,7 +70,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background-color: #00008B;
+    background-color: #0055A8;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0055A8;
 }
 
 #resultTextView {
