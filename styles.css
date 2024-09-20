@@ -30,7 +30,7 @@ body {
     border-radius: 5px; /* Zaokrąglone rogi */
     text-align: center; /* Wyśrodkowanie tekstu */
     display: inline-block; /* Pozwala na łatwe ustawienie szerokości */
-    width: 80%; /* Możesz dostosować szerokość do potrzeb */
+    width: 90%; /* Możesz dostosować szerokość do potrzeb */
     box-sizing: border-box; /* Zapewnia, że padding nie rozszerza szerokości poza 100% */
 }
 
