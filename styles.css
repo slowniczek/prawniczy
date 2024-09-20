@@ -27,10 +27,10 @@ body {
     color: white; /* Biały kolor tekstu */
     background-color: #0033a0; /* Ciemnoniebieskie tło */
     padding: 10px; /* Większy wewnętrzny odstęp dla efektu prostokąta */
-    border-radius: 10px; /* Zaokrąglone rogi */
+    border-radius: 5px; /* Zaokrąglone rogi */
     text-align: center; /* Wyśrodkowanie tekstu */
     display: inline-block; /* Pozwala na łatwe ustawienie szerokości */
-    width: 100%; /* Możesz dostosować szerokość do potrzeb */
+    width: 80%; /* Możesz dostosować szerokość do potrzeb */
     box-sizing: border-box; /* Zapewnia, że padding nie rozszerza szerokości poza 100% */
 }
 
